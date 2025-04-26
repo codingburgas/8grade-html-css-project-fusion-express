@@ -7,3 +7,5 @@ Our project is a website that will help you pick out the best car for you based 
 
 **HTML AND CSS :**
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg" alt="HTML" height="40">
+import { FaHtml5 } from "react-icons/fa";
+<FaHtml5 />
