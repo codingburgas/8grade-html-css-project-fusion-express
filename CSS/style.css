@@ -1,0 +1,31 @@
+body{
+    background-color: #EEE9E4;
+    font-family: sans-serif;
+    margin:0;
+}
+.navBar{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    background-color:#1364BB;
+    font-size: x-large;
+    display: flex;
+    margin: 0;
+    box-shadow: 0px 0px 2px 2px;
+}
+.navCont{
+    font-weight: bold;
+}
+.navCont .aNav{
+    display:block;
+    color: #F4F3F2;
+    padding: 20px 17px;
+    text-decoration: none;
+}
+.navCont:hover{
+    background-color: #5B89BD;
+}
+#homePage{
+    background-color: #242124;
+}
