@@ -29,3 +29,11 @@ body{
 #homePage{
     background-color: #242124;
 }
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+p{
+    color:#242124;
+    text-align: center;
+}
