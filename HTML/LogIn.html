@@ -6,6 +6,14 @@
   <link rel="stylesheet" href="../CSS/LogInStyle.css">
 </head>
 <body>
+  <ul class="navBar">
+    <li class="navCont"><a href class="aNav">Home</a></li>
+    <li class="navCont"><a href class="aNav">Log in</a></li>
+    <li class="navCont" id="aboutUs"><a href class="aNav">About Us</a></li>
+    <li class="navCont"><a href class="aNav">Feedback</a></li>
+  </ul>
+
+  <div class="LogInForm">
   <form>
     <h2>Sign up</h2>
     
@@ -21,10 +29,8 @@
     <label>Password</label><br>
     <input type="password" placeholder="Enter your password" required />
     
-    <label>Confirm password</label><br>
-    <input type="password" placeholder="Confirm your password" required />
-
-    <button class="btn">Sign up</button>
+    <button class="btn" onclick="document.location='Confirm password.html'">Confirm</button>
   </form>
+  </div>
 </body>
 </html>
