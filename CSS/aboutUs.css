@@ -35,16 +35,6 @@ h1{
     font-style: italic;
     font-size: 55px;
 }
-h2{
-    font-size: 45px;
-    text-align: left;
-    margin-bottom: 0;
-    border-bottom:  4px solid #b1aeab;
-    border-radius: 4px;
-    display: flex;
-    justify-self: center;
-    width: 1000px;
-}
 .people{
     height:300px;
     width:300px;
@@ -65,7 +55,7 @@ form{
     flex-direction: column;
     align-items: center;
 }
-label{
+.headers{
     text-align: center;
     color: #161416;
     border-bottom:  4px solid #b1aeab;
@@ -73,6 +63,7 @@ label{
     display: flex;
     width: 1000px;
     font-size: 45px;
+    justify-self: center;
     font-weight: bold;
 }
 textarea{
