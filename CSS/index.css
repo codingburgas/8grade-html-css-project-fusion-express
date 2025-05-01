@@ -33,4 +33,27 @@ h1{
     text-align: center;
     margin-top: 35px;
     font-size: 55px;
+    font-style: italic;
+}
+#description{
+    color:#242124;
+    text-align: center;
+    width: 550px;
+    display: flex;
+    justify-self: center;
+}
+h2{
+    text-align: center;
+    color: #161416;
+    border-bottom:  4px solid #b1aeab;
+    border-radius: 4px;
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+    font-weight: bold;
+}
+.headers{
+
 }
