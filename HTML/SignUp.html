@@ -4,8 +4,16 @@
   <meta charset="UTF-8" />
   <title>Register</title>
   <link rel="stylesheet" href="../CSS/SignInStyle.css">
+  <link rel="stylesheet" href="../CSS/SignUp.css">
 </head>
 <body>
+  <ul class="navBar">
+    <li class="navCont"><a href="index.html" class="aNav">Home</a></li>
+    <li class="navCont"><a href="SignUp.html" class="aNav">Sign up</a></li>
+    <li class="navCont" id="aboutUs"><a href class="aNav">About Us</a></li>
+    <li class="navCont"><a href class="aNav">Feedback</a></li>
+  </ul>
+  <div class="LogInForm">
   <form>
     <h2>Sign up</h2>
     
@@ -20,11 +28,9 @@
     
     <label>Password</label><br>
     <input type="password" placeholder="Enter your password" required />
-
-    <label>Confirm Password</label>
-    <input type="password" placeholder="Confirm your password" required />
     
-    <button class="btn" onclick="document.location='Confirm password.html'">Confirm</button>
+    <button class="btn" onclick="document.location='index.html'">Confirm</button>
   </form>
+  </div>
 </body>
 </html>
