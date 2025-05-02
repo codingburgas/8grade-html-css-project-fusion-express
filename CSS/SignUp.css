@@ -7,6 +7,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-y: scroll;
 }
 header {
   background: linear-gradient(90deg, #000000, #1f1f1f);
@@ -47,7 +48,7 @@ nav ul li a {
   border-radius: 6px;
   box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
   width: 300px;
-  transform: translateY(70px);
+  transform: translateY(90px);
 }
 h2 {
   text-align: center;
@@ -144,23 +145,49 @@ input {
   min-height: calc(100vh - 120px);
 }
 footer {
-  background: linear-gradient(90deg, #000000, #1f1f1f);
+  background-color: #1f1f1f;
   padding: 15px;
   text-align: center;
   font-size: 0.9em;
-  margin: 0;
   position: absolute;
   bottom: 0;
-  width: 100vw;
-  justify-self: center;
-  transform: translateY(55px);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(600px);
 }
-footer .icons a{
-  color: #fff;
-  margin: 0 15px;
-  text-decoration: none;
+#findUs{
+  font-size: 43px;
+  text-align: center;
+  color: #dcd8d4;
 }
-
-footer .icons a:hover {
-  color: #ddd;
+#copyright{
+  font-size: 23px;
+  color: #dcd8d4;
+  text-align: center;
+}
+#emailNumber{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  color: #dcd8d4;
+}
+.fPic{
+  height: 150px;
+  width: 150px;
+  margin: 0;
+  transition: 0.3s ease-in-out;
+}
+.footerImages{
+  display: flex;
+  justify-content: center;
+  gap:80px;
+}
+.fPic:hover{
+  transform: scale(1.1);
+}
+.contacts{
+  font-size: 40px;
 }
