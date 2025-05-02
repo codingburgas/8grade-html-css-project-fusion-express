@@ -17,7 +17,6 @@ header {
   top: 0;
   width: 100vw;
   justify-self: center;
-
 }
  
 h1 {
@@ -43,25 +42,27 @@ nav ul li a {
  
 
 .LogInForm {
-  background: #ffffff;
+  background: #1f1f1f;
   padding: 20px;
   border-radius: 6px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
   width: 300px;
+  transform: translateY(50px);
 }
 h2 {
   text-align: center;
   margin-bottom: 15px;
-  color: #007BFF; /* Blue heading */
+  color: #ffcc00; /* Yellowish heading */
 }
 input {
   width: 93%;
   padding: 10px;
   margin: 8px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #7474744b;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  background-color:  #7474744b;
 }
 .btn {
   width: 100%;
@@ -80,7 +81,7 @@ input {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #003989;
+  background-color:  #ffaa00;
   left: 0;
   top: 0;
   border-radius: 4px;
@@ -88,7 +89,7 @@ input {
 /* glow */
 .btn::before {
   content: "";
-  background: linear-gradient(45deg, #00FFD5, #002BFF, #0099ff);
+  background: linear-gradient(45deg,  #ffcc00,  #ff7700, #ff4d00);
   position: absolute;
   top: -2px;
   left: -2px;
