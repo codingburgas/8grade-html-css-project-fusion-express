@@ -5,19 +5,46 @@
         <link rel="stylesheet" href="../CSS/index.css">
     </head>
     <body>
-        <ul class="navBar">
-            <li class="navCont"><img src=""></li>
-            <li class="navCont" id="homePage"><a href="index.html" class="aNav">Home</a></li>
-            <li class="navCont"><a href="aboutUs.html" class="aNav">About Us</a></li>
-            <li class="navCont"><a href class="aNav">Catalog</a></li>
-            <li class="navCont"><a href="LogIn.html" class="aNav">Sign In</a></li>
-        </ul>
-        <br>
-        <h1>Welcome to Fusion Express!</h1>
+        <header>
+            <h1 id="fusionExpress">FUSION EXPRESS</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chooseTheSection.html">Catalog</a></li>
+                    <li><a href="SignUp.html">Sign Up</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 id="welcome">Welcome to Fusion Express!</h1>
         <p id="description">Our website is designed to help you to the best extent. Here you will find cars for all kinds of needs and budgets. We hope you enjoy your ride with us. Customers always come first!</p>
-        <h2 class="headers">Bestsellers</h2>
-        <div id="bestSellers"></div>
-        
+        <h1 id="head">Choose the type of car you would like</h1>
+        <section class="catalog">
+            <article class="section">
+                <img src="../Images/electricCar.png" alt="Electric Car" class="cars">
+                <h2>Electric Cars</h2>
+                <p>Drive electric with power and peace</p>
+                <button>See the catalog</button>
+            </article>
+            <article class="section">
+                <img src="../Images/fuelCar.png" alt="Fuel Car" class="cars">
+                <h2>Fuel Cars</h2>
+                <p>Ride classic fuel cars with pleasure</p>
+                <button>See the catalog</button>
+            </article>
+            <article class="section">
+                <img src="../Images/hybridCar.png" alt="Hybrid Car" class="cars">
+                <h2>Hybrid Cars</h2>
+                <p>Enjoy the perfect balance of power and efficiency</p>
+                <button>See the catalog</button>
+            </article>
+            <article class="section">
+                <img src="../Images/luxuriousCar.png" alt="Luxury Car" class="cars">
+                <h2>Luxurious Cars</h2>
+                <p>Feel the luxury and the speed while riding</p>
+                <button>See the catalog</button>
+            </article>
+        </section>
         <footer>
             <h2 id="findUs">Contact Us:</h2>
             <div class="footerImages">
