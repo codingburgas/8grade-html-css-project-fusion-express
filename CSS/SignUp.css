@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background: #e0f0ff; /* Light blue background */
+  background: linear-gradient(90deg,#1f1f1f, #000000);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,43 +8,39 @@ body {
   margin: 0;
   padding: 0;
 }
-.navBar {
-  list-style-type: none;
-  padding:0;
-  display: flex;
-  background-color:#1364BB;
-  font-size: x-large;
-  align-items: right;
-  display: flex;
+header {
+  background: linear-gradient(90deg, #000000, #1f1f1f);
+  padding: 0;
+  text-align: center;
   margin: 0;
   position: absolute;
   top: 0;
   width: 100vw;
-  right: 0;
-  box-shadow: 0px 0px 2px 2px;
+  justify-self: center;
+
 }
-ul {
-  list-style-type: none;
-  margin: 0;
+ 
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+ 
+nav ul {
+  list-style: none;
   padding: 0;
-  background-color: #333;
 }
-
-li {
-  float: left;
+ 
+nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+ 
+nav ul li a {
   text-decoration: none;
+  color: #ffcc00;
+  font-size: 1.2em;
 }
-
-li a:hover {
-  background-color: #111;
-}
+ 
 
 .LogInForm {
   background: #ffffff;

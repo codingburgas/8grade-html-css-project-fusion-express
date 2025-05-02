@@ -6,17 +6,22 @@
   <link rel="stylesheet" href="../CSS/SignUp.css">
 </head>
 <body>
-  <ul class="navBar">
-    <li class="navCont"><a href="index.html" class="aNav">Home</a></li>
-    <li class="navCont"><a href="SignUp.html" class="aNav">Sign up</a></li>
-    <li class="navCont" id="aboutUs"><a href class="aNav">About Us</a></li>
-    <li class="navCont"><a href class="aNav">Feedback</a></li>
-  </ul>
+  <header>
+    <h1>FUSION EXPRESS</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+</header>
   <div class="LogInForm">
   <form>
     <h2>Sign up</h2>
     
-    <label>Full name</label><br>
+    <label>Name</label><br>
     <input type="text" placeholder="Enter your full fame" required />
     
     <label>Email adress</label><br>
@@ -27,6 +32,9 @@
     
     <label>Password</label><br>
     <input type="password" placeholder="Enter your password" required />
+
+    <label>Confirm your password</label><br>
+    <input type="password" placeholder="Please confirm your password" required />
     
     <button class="btn" onclick="document.location='index.html'">Confirm</button>
   </form>
