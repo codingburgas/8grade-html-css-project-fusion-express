@@ -17,7 +17,15 @@ h1 {
     font-weight: bold;
 }
 #head{
-    text-align: center;
+    border-bottom:  4px solid #222;
+    border-radius: 4px;
+    display: flex;
+    width: 1000px;
+    font-size: 45px;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav ul {
@@ -35,7 +43,6 @@ nav ul li a {
     color: #ffcc00;
     font-size: 1.2em;
 }
-
 #fusionExpress{
     text-align: center;
     color: #dcd8d4;
@@ -86,6 +93,7 @@ button {
  
 button:hover {
     background-color: #ffaa00;
+    transform: scale(1.1);
 }
 html, body {
     height: 100%;
@@ -133,11 +141,15 @@ footer {
     height: 150px;
     width: 150px;
     margin: 0;
+    transition: 0.3s ease-in-out;
 }
 .footerImages{
     display: flex;
     justify-content: center;
     gap:80px;
+}
+.fPic:hover{
+    transform: scale(1.1);
 }
 .contacts{
     font-size: 40px;
