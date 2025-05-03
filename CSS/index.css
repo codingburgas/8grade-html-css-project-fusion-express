@@ -192,24 +192,6 @@ html, body {
     color: #000;
     font-weight: bold;
 }
-  
-/*hover*/
-.submit:hover {
-    background-color: rgb(0, 140, 255);
-    color: white;
-      
-}
-.submit:hover::before {
-    opacity: 1;
-}
-  
-.submit:active:after {
-    background: transparent;
-}
-.submit:active {
-    color: aquamarine;
-    font-weight: bold;
-}
 
 form{
     padding-top: 4px;
