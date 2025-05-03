@@ -20,11 +20,22 @@ nav ul li {
     display: inline;
     margin: 0 15px;
 }
- 
 nav ul li a {
     text-decoration: none;
     color: #ffcc00;
     font-size: 1.2em;
+}
+.navLink{
+    transition: all 0.3s ease-in;
+    display: inline-block;
+}
+
+.navLink:hover{
+    transform: scale(1.2);
+    background-color: #1f1f1f;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: underline rgba(255, 204, 0, 0.5);
 }
 #fusionExpress{
     text-align: center;
@@ -46,10 +57,11 @@ figure{
     text-align: center;
     width: 400px;
     box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 figure:hover{
     transform: scale(1.1);
+    box-shadow: 2px 4px 10px #ffaa00;
 }
 .people{
     height:300px;
@@ -63,7 +75,6 @@ figcaption{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    /*color: #ffcc00;*/
 }
 .descPeople{
     color: #ffcc00;
@@ -154,11 +165,15 @@ footer{
     height: 150px;
     width: 150px;
     margin: 0;
+    transition: 0.3s ease-in-out;
 }
 .footerImages{
     display: flex;
     justify-content: center;
     gap:80px;
+}
+.fPic:hover{
+    transform: scale(1.2);
 }
 .contacts{
     font-size: 40px;
