@@ -198,7 +198,7 @@ footer {
   gap:80px;
 }
 .fPic:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .contacts{
   font-size: 40px;
