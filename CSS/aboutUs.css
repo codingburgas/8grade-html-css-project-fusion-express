@@ -148,6 +148,7 @@ input:hover{
     position: relative;
     z-index: 0;
     border-radius: 4px;
+    font-weight: bold;
 }
 .btn::after {
     content: "";
@@ -192,6 +193,7 @@ input:hover{
   
 .btn:active:after {
     background: transparent;
+
 }
   
 .btn:active {
