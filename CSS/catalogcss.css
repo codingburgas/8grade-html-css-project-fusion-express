@@ -16,23 +16,37 @@ h1 {
     font-size: 2.5em;
     font-weight: bold;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
 }
 
+.navLink{
+    transition: all 0.3s ease-in;
+    display: inline-block;
+}
+
+.navLink:hover{
+    transform: scale(1.2);
+    background-color: #1f1f1f;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: underline rgba(255, 204, 0, 0.5);
+}
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
-
+ 
 nav ul li a {
     text-decoration: none;
     color: #ffcc00;
     font-size: 1.2em;
 }
-
+#fusionExpress{
+    text-align: center;
+    color: #dcd8d4;
+}
 .catalog {
     display: flex;
     flex-wrap: wrap;
@@ -48,11 +62,12 @@ nav ul li a {
     text-align: center;
     width: 300px;
     box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .car:hover {
     transform: scale(1.05);
+    box-shadow: 3px 4px 10px #ffaa00;
 }
 
 .car img {
