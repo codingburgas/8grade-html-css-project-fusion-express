@@ -28,13 +28,12 @@ h1 {
     font-size: 2.5em;
     font-weight: bold;
 }
-#head{
-    border-bottom:  4px solid #222;
+.headers{
+    border-bottom:  4px solid rgba(255, 204, 0, 0.5);
     border-radius: 4px;
     display: flex;
     width: 1000px;
     font-size: 45px;
-    justify-content: center;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +46,19 @@ nav ul {
     list-style: none;
     padding: 0;
 }
- 
+
+.navLink{
+    transition: all 0.3s ease-in;
+    display: inline-block;
+}
+
+.navLink:hover{
+    transform: scale(1.2);
+    background-color: #1f1f1f;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: underline rgba(255, 204, 0, 0.5);
+}
 nav ul li {
     display: inline;
     margin: 0 15px;
@@ -68,7 +79,6 @@ nav ul li a {
     justify-content: center;
     padding: 50px;
 }
- 
 .section {
     background-color: #222;
     padding: 20px;
@@ -77,13 +87,9 @@ nav ul li a {
     text-align: center;
     width: 400px;
     box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
- 
-.car:hover {
-    transform: scale(1.05);
-}
- 
+
 .car img {
     width: 100%;
     border-radius: 10px;
@@ -105,10 +111,13 @@ button {
     border-radius: 5px;
     transition: 0.3s ease-in-out;
 }
- 
-button:hover {
+
+button:hover{
     background-color: #ffaa00;
+}
+.section:hover {
     transform: scale(1.1);
+    box-shadow: 2px 4px 10px #ffaa00;
 }
 html, body {
     height: 100%;
@@ -122,6 +131,7 @@ html, body {
     display: flex;
     flex-direction: row;
 }
+
 .btn {
     width: 40%;
     padding: 10px;
@@ -200,8 +210,50 @@ html, body {
     color: aquamarine;
     font-weight: bold;
 }
-footer {
+
+form{
+    padding-top: 4px;
+    padding-left: 5px;
     background-color: #1f1f1f;
+    border-radius: 4px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
+}
+textarea{
+    padding: 10px;
+    border: 1px solid #7474744b;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    background-color:  #7474744b;
+    display: flex;
+    width: 900px;
+    height: 150px;
+}
+input {
+    background-color: #ffcc00;
+    border: none;
+    color: #000;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    width: 890px;
+}
+
+input:hover{
+    background-color: #ffaa00;
+}
+ 
+footer {
+    background: linear-gradient(90deg, #000000, #1f1f1f);
     padding: 15px;
     text-align: center;
     font-size: 0.9em;
@@ -241,7 +293,7 @@ footer {
     gap:80px;
 }
 .fPic:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .contacts{
     font-size: 40px;
