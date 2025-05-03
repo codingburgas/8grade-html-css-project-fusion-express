@@ -16,24 +16,32 @@
             </nav>
         </header>
         <br>
-        <h1 id="pageTitle">You are only one step ahead of driving your new dream</h1>
+        <h1 id="pageTitle">You are only one step ahead of driving your new dream!</h1>
         <br>
         <h2 class="headers">Fill in the Payment Details</h2>
         <div id="cardDetails">
             <form>
-                <label for="cname">Credit Card Name</label> <br>
-                <input type="text" id="cname" name="cardName" placeholder="Your name on the card" required>
+                <div class="infGroup">
+                <label for="cname">Credit Card Name</label>
+                <input type="text" id="cname" name="cardName" placeholder="First Name / Last Name" required inputmode="latin-name">
+                </div>
                 <br>
-                <label for="ccn">Credit Card Number</label> <br>
-                <input type="text" id="ccn" name="cardNumber" placeholder="Your card number" required pattern="[0-9] {16}">
+                <div class="infGroup">
+                <label for="ccn">Credit Card Number</label>
+                <input type="text" id="ccn" name="cardNumber" placeholder="1111 2222 3333 4444" required pattern="\d{4}\s\d{4}\s\d{4}\s\d{4}" inputmode="numeric">
+                </div>
                 <br>
-                <label for="cvv">CVV/CVC</label> <br>
-                <input type="text" id="cvv" name="CVV" placeholder="Your CVV/CVC" required pattern="[0-9] {3}"> 
+                <div class="infGroup">
+                <label for="cvv">CVV/CVC</label>
+                <input type="text" id="cvv" name="CVV" placeholder="123(4)" required pattern="\d{3,4}" inputmode="numeric"> 
+                </div>
                 <br>
-                <label for="expdate">Expiry Date</label> <br>
-                <input type="text" id="expdate" name="expiryDate" placeholder="DD/MM/YYYY" required >
+                <div class="infGroup">
+                <label for="expdate">Expiry Date</label>
+                <input type="text" id="expdate" name="expiryDate" placeholder="MM/YY" required pattern="(1[0-2]|0[1-9])\/\d{2}" inputmode="numeric">
+                </div>
                 <br>
-                <button class="btn">Submit</button>
+                <button class="btn">Make Payment</button>
             </form>
         </div>
         <br> <br>
