@@ -63,7 +63,12 @@ figcaption{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    /*color: #ffcc00;*/
+}
+.descPeople{
     color: #ffcc00;
+    font-style: italic;
+    font-size: 25px;
 }
 div{
     display: flex;
@@ -75,7 +80,7 @@ form{
     align-items: center;
 }
 .headers{
-    border-bottom:  4px solid #222;
+    border-bottom:  4px solid rgba(255, 204, 0, 0.5);
     border-radius: 4px;
     display: flex;
     width: 1000px;

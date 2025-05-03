@@ -29,7 +29,7 @@ h1 {
     font-weight: bold;
 }
 #head{
-    border-bottom:  4px solid #222;
+    border-bottom:  4px solid rgba(255, 204, 0, 0.5);
     border-radius: 4px;
     display: flex;
     width: 1000px;
