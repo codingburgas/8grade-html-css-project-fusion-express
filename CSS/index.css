@@ -67,7 +67,6 @@ nav ul li a {
     justify-content: center;
     padding: 50px;
 }
- 
 .section {
     background-color: #222;
     padding: 20px;
@@ -101,6 +100,9 @@ button {
     transition: 0.3s ease-in-out;
 }
 
+button:hover{
+    background-color: #ffaa00;
+}
 .section:hover {
     transform: scale(1.1);
 }
