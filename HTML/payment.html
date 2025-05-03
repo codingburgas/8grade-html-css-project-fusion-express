@@ -19,6 +19,24 @@
         <h1 id="pageTitle">You are only one step ahead of driving your new dream</h1>
         <br>
         <h2 class="headers">Fill in the Payment Details</h2>
+        <div id="cardDetails">
+            <form>
+                <label for="cname">Credit Card Name</label> <br>
+                <input type="text" id="cname" name="cardName" placeholder="Your name on the card" required>
+                <br>
+                <label for="ccn">Credit Card Number</label> <br>
+                <input type="number" id="ccn" name="cardNumber" placeholder="Your card number" required pattern="[0-9] {16}">
+                <br>
+                <label for="cvv">CVV/CVC</label> <br>
+                <input type="number" id="cvv" name="CVV" placeholder="Your CVV/CVC" required pattern="[0-9] {3}"> 
+                <br>
+                <label for="expdate">Expiry Date</label> <br>
+                <input type="date" id="expdate" name="expiryDate" placeholder="DD/MM/YYYY" required >
+                <br>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+        <br> <br>
         <footer>
             <h2 id="findUs">Contact Us:</h2>
             <div class="footerImages">
