@@ -1,8 +1,11 @@
 body{
-    background-color: #EEE9E4;
+    background-color: #121212;
     font-family: sans-serif;
     margin:0;
+    padding: 0;
+    color: #ffffff;
 }
+
 header {
     background: linear-gradient(90deg, #000000, #1f1f1f);
     padding: 20px;
@@ -44,7 +47,10 @@ nav ul li a {
 figcaption{
     width:300px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    color: #ffcc00;
 }
 div{
     display: flex;
@@ -56,15 +62,14 @@ form{
     align-items: center;
 }
 .headers{
-    text-align: center;
-    color: #161416;
-    border-bottom:  4px solid #b1aeab;
+    border-bottom:  4px solid #222;
     border-radius: 4px;
     display: flex;
     width: 1000px;
     font-size: 45px;
-    justify-self: center;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 textarea{
     width: 1000px;
@@ -96,8 +101,8 @@ textarea{
     top: 0;
     border-radius: 4px;
 }
-  /* glow */
-  .btn::before {
+/* glow */
+.btn::before {
     content: "";
     background: linear-gradient(45deg, #00FFD5, #002BFF, #0099ff);
     position: absolute;
@@ -148,7 +153,6 @@ textarea{
     min-height: calc(100vh - 120px);
 }
 footer{
-    box-shadow: 0px 5px 5px 5px;
     background: linear-gradient(90deg, #000000, #1f1f1f);
     margin: 0;
     display: flex;
