@@ -46,13 +46,20 @@ nav ul li a {
     text-decoration: underline rgba(255, 204, 0, 0.5);
 }
 
-.LogInForm {
+#LogInForm {
   background: #1f1f1f;
   padding: 20px;
-  border-radius: 6px;
+  border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
   width: 500px;
-  transform: translateY(90px);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  justify-self: center;
+  justify-content: center;
+  top: 130px;
+}
+#LogInForm:hover {
+  transform: scale(1.05);
   
 }
 h2 {
