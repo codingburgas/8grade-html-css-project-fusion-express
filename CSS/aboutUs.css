@@ -11,6 +11,7 @@ header {
     padding: 20px;
     text-align: center;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -20,11 +21,13 @@ nav ul li {
     display: inline;
     margin: 0 15px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #ffcc00;
     font-size: 1.2em;
 }
+
 .navLink{
     transition: all 0.3s ease-in;
     display: inline-block;
@@ -37,18 +40,21 @@ nav ul li a {
     border-radius: 4px;
     text-decoration: underline rgba(255, 204, 0, 0.5);
 }
+
 #fusionExpress{
     text-align: center;
     color: #dcd8d4;
     font-size: 2.5em;
     font-weight: bold;
 }
+
 #aU{
     text-align: center;
     margin-bottom: 0;
     font-style: italic;
     font-size: 55px;
 }
+
 figure{
     background-color: #222;
     padding: 20px;
@@ -59,16 +65,19 @@ figure{
     box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
     transition: all 0.3s ease-in-out;
 }
+
 figure:hover{
     transform: scale(1.1);
     box-shadow: 2px 4px 10px #ffaa00;
 }
+
 .people{
     height:300px;
     width:300px;
     border: solid 1px #242124;
     border-radius: 3px;
 }
+
 figcaption{
     width:300px;
     margin-top: 10px;
@@ -76,25 +85,30 @@ figcaption{
     margin-right: auto;
     text-align: center;
 }
+
 .descPeople{
     color: #ffcc00;
     font-style: italic;
     font-size: 25px;
 }
+
 div{
     display: flex;
     justify-content: center;
 }
+
 .headers{
     border-bottom:  4px solid rgba(255, 204, 0, 0.5);
     border-radius: 4px;
-    display: flex;
     width: 1000px;
     font-size: 45px;
     font-weight: bold;
+    
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 form{
     padding-top: 4px;
     padding-left: 5px;
@@ -108,6 +122,7 @@ form{
     justify-self: center;
     box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
 }
+
 textarea{
     padding: 10px;
     border: 1px solid #7474744b;
@@ -119,6 +134,7 @@ textarea{
     width: 900px;
     height: 150px;
 }
+
 input {
     background-color: #ffcc00;
     border: none;
@@ -135,9 +151,11 @@ input {
 input:hover{
     background-color: #ffaa00;
 }
+
 .content {
     min-height: calc(100vh - 120px);
 }
+
 .btn {
     width: 92%;
     padding: 10px;
@@ -150,6 +168,7 @@ input:hover{
     border-radius: 4px;
     font-weight: bold;
 }
+
 .btn::after {
     content: "";
     z-index: -1;
@@ -161,6 +180,7 @@ input:hover{
     top: 0;
     border-radius: 4px;
 }
+
 /* glow */
 .btn::before {
     content: "";
@@ -200,43 +220,54 @@ input:hover{
     color: #000;
     font-weight: bold;
 }
+
 footer{
     background: linear-gradient(90deg, #000000, #1f1f1f);
-    margin: 0;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
     align-items: center;
+    gap:20px;
 }
+
 #findUs{
     font-size: 43px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     color: #dcd8d4;
 }
+
 #copyright{
     font-size: 23px;
     color: #dcd8d4;
     text-align: center;
 }
+
 #emailNumber{
-    display: flex;
-    justify-content: center;
-    gap: 35px;
     color: #dcd8d4;
 }
+
 .fPic{
-    height: 150px;
-    width: 150px;
-    margin: 0;
+    text-align: center;
+    max-height: 150px;
+    max-width: 50%;
+    margin: 10px;
+    gap:20px;
     transition: 0.3s ease-in-out;
 }
+
 .footerImages{
-    display: flex;
-    justify-content: center;
-    gap:80px;
+    text-align: center;
+    gap:20px;
 }
+
 .fPic:hover{
     transform: scale(1.2);
 }
+
 .contacts{
     font-size: 40px;
+    margin-bottom:20px;
+    text-align: center;
 }
