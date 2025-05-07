@@ -250,17 +250,18 @@ footer{
 
 .fPic{
     text-align: center;
-    max-height: 150px;
-    max-width: 50%;
-    margin: 10px;
-    gap:20px;
-    transition: 0.3s ease-in-out;
+    height: 80px;
+    width: 80px;
+    margin: 0 30px;
+    transition: all 0.3s ease-in;
 }
 
 .footerImages{
-    text-align: center;
-    gap:20px;
+    display: flex;
+    justify-content: center;
+    gap:80px;
 }
+
 
 .fPic:hover{
     transform: scale(1.2);
