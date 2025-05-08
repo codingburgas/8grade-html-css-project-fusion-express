@@ -130,6 +130,7 @@ input::placeholder{
 }
 
 .btn {
+    font-size: 24px;
     font-weight: bold;
     width: 95%;
     padding: 10px;
