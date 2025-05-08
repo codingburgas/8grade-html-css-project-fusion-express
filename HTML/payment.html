@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment</title>
+        <link rel="stylesheet" href="../CSS/payment.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="fusionExpress">FUSION EXPRESS</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="navLink">Home</a></li>
+                    <li><a href="SignUp.html" class="navLink">Sign up</a></li>
+                    <li><a href="aboutUs.html" class="navLink">About us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <h1 id="pageTitle">You are only one step ahead of driving your new dream!</h1>
+        <br>
+        <h2 class="headers">Fill in the Payment Details</h2>
+        <div id="cardDetails">
+            <form>
+                <div class="infGroup">
+                <label for="cname">Credit Card Name</label>
+                <input type="text" id="cname" name="cardName" placeholder="First Name / Last Name" required inputmode="latin-name">
+                </div>
+                <br>
+                <div class="infGroup">
+                <label for="ccn">Credit Card Number</label>
+                <input type="text" id="ccn" name="cardNumber" placeholder="1111 2222 3333 4444" required pattern="\d{4}\s\d{4}\s\d{4}\s\d{4}" inputmode="numeric">
+                </div>
+                <br>
+                <div class="infGroup">
+                <label for="cvv">CVV / CVC</label>
+                <input type="text" id="cvv" name="CVV" placeholder="123(4)" required pattern="\d{3,4}" inputmode="numeric"> 
+                </div>
+                <br>
+                <div class="infGroup">
+                <label for="expdate">Expiry Date</label>
+                <input type="text" id="expdate" name="expiryDate" placeholder="MM/YY" required pattern="(1[0-2]|0[1-9])\/\d{2}" inputmode="numeric">
+                </div>
+                <br>
+                <button class="btn">Make Payment</button>
+            </form>
+            <img src="../Images/visaMastercard.png" alt="Visa / MasterCard" height="70px" width="95px">
+        </div>
+        <br> <br>
+        <footer>
+            <h2 id="findUs">Contact Us:</h2>
+            <div class="footerImages">
+            <a href="https://www.facebook.com"><img src="../Images/facebook.png" id="facebook" class="fPic"></a>
+            <a href="https://www.instagram.com"><img src="../Images/instagram.png" id="instagram" class="fPic"></a>
+            <a href="https://www.github.com"><img src="../Images/github.png" id="github" class="fPic"></a>
+            </div>
+            <div id="emailNumber">
+            <p class="contacts"><b>Email: </b>fusionExpress@yahoo.com</p>
+            <p class="contacts"><b>Phone number: </b>+359877655433</p>
+            </div>
+            <p id="copyright">© 2025 - Fusion Express</p>
+        </footer>
+    </body>
+</html>

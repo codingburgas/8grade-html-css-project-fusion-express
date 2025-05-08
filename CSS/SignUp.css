@@ -7,55 +7,75 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-y: scroll;
 }
 header {
-  background: linear-gradient(90deg, #000000, #1f1f1f);
-  padding: 0;
-  text-align: center;
-  margin: 0;
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  justify-self: center;
+    background: linear-gradient(90deg, #000000, #1f1f1f);
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    justify-self: center;
 }
- 
-h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-}
- 
 nav ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
  
 nav ul li {
-  display: inline;
-  margin: 0 15px;
+    display: inline;
+    margin: 0 15px;
 }
- 
 nav ul li a {
-  text-decoration: none;
-  color: #ffcc00;
-  font-size: 1.2em;
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.2em;
 }
- 
+.navLink{
+    transition: all 0.3s ease-in;
+    display: inline-block;
+}
 
-.LogInForm {
+.navLink:hover{
+    transform: scale(1.2);
+    background-color: #1f1f1f;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: underline rgba(255, 204, 0, 0.5);
+}
+
+#LogInForm {
   background: #1f1f1f;
   padding: 20px;
-  border-radius: 6px;
+  border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
-  width: 300px;
-  transform: translateY(50px);
+  width: 500px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  justify-self: center;
+  justify-content: center;
+  top: 130px;
+}
+#LogInForm:hover {
+  transform: scale(1.05);
+  
 }
 h2 {
   text-align: center;
   margin-bottom: 15px;
   color: #ffcc00; /* Yellowish heading */
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 input {
-  width: 93%;
+  width: 96%;
   padding: 10px;
   margin: 8px 0;
   border: 1px solid #7474744b;
@@ -63,13 +83,15 @@ input {
   align-items: center;
   justify-content: center;
   background-color:  #7474744b;
+  display: flex;
+
 }
 .btn {
   width: 100%;
   padding: 10px;
   border: none;
   outline: none;
-  color: #FFF;
+  color: #000000;
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -113,6 +135,7 @@ input {
 /* hover */
 .btn:hover::before {
   opacity: 1;
+  
 }
 
 .btn:active:after {
@@ -124,22 +147,54 @@ input {
   font-weight: bold;
 }
 
-/*hover*/
-.submit:hover {
-    background-color: rgb(0, 140, 255);
-    color: white;
-}
-.submit:hover::before {
-    opacity: 1;
-}
 
-.submit:active:after {
-    background: transparent;
-}
-.submit:active {
-    color: aquamarine;
-    font-weight: bold;
-}
 .content {
   min-height: calc(100vh - 120px);
+}
+footer {
+  background: linear-gradient(90deg, #000000, #1f1f1f);
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(600px);
+}
+#findUs{
+  font-size: 43px;
+  text-align: center;
+  color: #dcd8d4;
+}
+#copyright{
+  font-size: 23px;
+  color: #dcd8d4;
+  text-align: center;
+}
+#emailNumber{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  color: #dcd8d4;
+}
+.fPic{
+  height: 150px;
+  width: 150px;
+  margin: 0;
+  transition: 0.3s ease-in-out;
+}
+.footerImages{
+  display: flex;
+  justify-content: center;
+  gap:80px;
+}
+.fPic:hover{
+  transform: scale(1.2);
+}
+.contacts{
+  font-size: 40px;
 }
