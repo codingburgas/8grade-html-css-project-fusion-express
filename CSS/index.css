@@ -133,12 +133,13 @@ html, body {
     padding: 10px;
     border: none;
     outline: none;
-    color: #000000;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 4px;
+    color:#000;
 }
+
 .btn::after {
     content: "";
     z-index: -1;
@@ -150,7 +151,7 @@ html, body {
     top: 0;
     border-radius: 4px;
 }
-/* glow */
+
 .btn::before {
     content: "";
     background: linear-gradient(45deg,  #ffcc00,  #ff7700, #ff4d00);
@@ -174,8 +175,7 @@ html, body {
     100% {background-position: 0 0;}
 }
   
-/* hover */
-    .btn:hover::before {
+.btn:hover::before {
     opacity: 1;
     
 }
