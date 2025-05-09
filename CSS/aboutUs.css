@@ -181,7 +181,6 @@ input:hover{
     border-radius: 4px;
 }
 
-/* glow */
 .btn::before {
     content: "";
     background: linear-gradient(45deg,  #ffcc00,  #ff7700, #ff4d00);
@@ -204,8 +203,7 @@ input:hover{
     50% {background-position: 400% 0;}
     100% {background-position: 0 0;}
 }
-  
-/* hover */
+
 .btn:hover::before {
     opacity: 1;
     
