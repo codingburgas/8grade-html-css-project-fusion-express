@@ -23,3 +23,13 @@ footer{
     align-items: center;
     gap:20px;
 }
+
+.logoFooter {
+    margin-top:20px;
+    width: 250px;
+    text-align: left;
+    display: block;
+    position: absolute;
+    transform: translateY(10px);
+    transition: ease-in-out (2s);
+}
