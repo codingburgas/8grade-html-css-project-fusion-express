@@ -9,6 +9,7 @@ body {
   padding: 0;
   overflow-y: scroll;
 }
+
 header {
     background: linear-gradient(90deg, #000000, #1f1f1f);
     padding: 20px;
@@ -19,6 +20,7 @@ header {
     width: 100vw;
     justify-self: center;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -28,6 +30,7 @@ nav ul li {
     display: inline;
     margin: 0 15px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #ffcc00;
