@@ -120,7 +120,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
-    transition: background 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 button:hover {
@@ -133,6 +133,7 @@ footer {
     text-align: center;
     font-size: 0.9em;
 }
+
 body {
     height: 100%;
     margin: 0;
@@ -154,12 +155,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 footer .icons a{
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
   }
   
-  footer .icons a:hover {
+footer .icons a:hover {
     color: #ddd;
   }
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
