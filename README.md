@@ -33,6 +33,6 @@
 | **Person** | **Job** | **Class** |
 | :---:   | :---: | :---: |
 | Radostin Dimkirichev | Front-end Developer | 8th "A" |
-| Mariela Apostolova |*Designer  | 8th "B" |
-| Vsevolod Bolotov |*Front-end Developer  | 8th "V" |
+| Mariela Apostolova | Designer  | 8th "B" |
+| Vsevolod Bolotov | Front-end Developer  | 8th "V" |
 | Dimana Foteva |  Scrum trainer  | 8th "G" |
