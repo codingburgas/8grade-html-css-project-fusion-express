@@ -221,11 +221,10 @@ input:hover{
 
 footer{
     background: linear-gradient(90deg, #000000, #1f1f1f);
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap:20px;
+    display: flex;
 }
 
 #findUs{
