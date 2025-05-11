@@ -20,6 +20,7 @@
 <p font-size="20px" font-weight="bold" align="left">
 <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML" width="50">
 <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS" width="50"> 
+<img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript" width="50">
 <img src="https://img.icons8.com/?size=100&id=zQ92KI7XjZgR&format=png&color=000000" alt="Teams" width="50"> 
 <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="Visual Studio Code" width="50">
 <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="Git" width="50"> 
