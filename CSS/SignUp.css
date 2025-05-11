@@ -154,49 +154,52 @@ input {
 .content {
   min-height: calc(100vh - 120px);
 }
-footer {
-  background: linear-gradient(90deg, #000000, #1f1f1f);
-  padding: 15px;
-  text-align: center;
-  font-size: 0.9em;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: translateY(600px);
+footer{
+    background: linear-gradient(90deg, #000000, #1f1f1f);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    transform: translateY(510px);
+    width: 100%;
 }
+
 #findUs{
-  font-size: 43px;
-  text-align: center;
-  color: #dcd8d4;
+    font-size: 43px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #dcd8d4;
 }
+
 #copyright{
-  font-size: 23px;
-  color: #dcd8d4;
-  text-align: center;
+    font-size: 23px;
+    color: #dcd8d4;
+    text-align: center;
 }
+
 #emailNumber{
-  display: flex;
-  justify-content: center;
-  gap: 35px;
-  color: #dcd8d4;
+    color: #dcd8d4;
 }
+
 .fPic{
-  height: 150px;
-  width: 150px;
-  margin: 0;
-  transition: 0.3s ease-in-out;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin: 0 30px;
+    transition: all 0.3s ease-in;
 }
+
 .footerImages{
-  display: flex;
-  justify-content: center;
-  gap:80px;
+    display: flex;
+    justify-content: center;
+    gap:80px;
 }
+
+
 .fPic:hover{
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
 .contacts{
   font-size: 40px;
