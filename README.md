@@ -11,7 +11,6 @@
 
 <h2> 🌟 Why you should choose us: </h2>
 
-
 <p align="left">
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg" alt="HTML and CSS" height="30" > 
 <img src="https://images.squarespace-cdn.com/content/v1/58c4d639bf629a85336019bd/1585063604353-8O1C1VXDKL0VMJZIL859/ke17ZwdGBToddI8pDm48kOEyJn-nkSjSwtTGUDpa4GEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcY9-Sj8Q4HaXae14ECS1ZSMlEmqGSBNpTkXyur_HcmX0jw6RWpRecUsA_rB6P-0oa/teams-1411850-1194339.png" alt="Teams" height="30">
