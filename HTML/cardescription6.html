@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/carDescription.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="icon" type="image/x-icon" src="../Images/logo.png">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"> </script>
+    <title>Fusion Express</title>
+</head>
+<body>
+  <header>
+    <img class="logoFooter" src="../Images/logo.png">
+        <nav>
+            <ul>
+                <h1 id="fusionExpress">FUSION EXPRESS</h1>
+                <li><a href="../HTML/index.html" class="navLink">Home</a></li>
+                <li><a href="aboutUs.html" class="navLink">About us</a></li>
+                <li><a href="SignUp.html" class="navLink">Sign up</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+   
+    <div class="container">
+        <div class="car-detail">
+            <div class="car-detail-img">
+              <hr> <br>
+              <model-viewer class="car3D" src="../Models/tesla_model_3_jb.glb"  alt="A 3D model" auto-rotate camera-controls ar> </model-viewer>
+            </div>
+ 
+            <div class="car-detail-info">
+                <h1>Telsa Model 3</h1>
+                <p class="car-price">$120/day</p>
+               
+                <div class="car-specs">
+                    <div class="spec-item">
+                        <span class="spec-label">Transmission:</span>
+                        <span class="spec-value">Automatic (Single-Speed)</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Seating:</span>
+                        <span class="spec-value">5 Seats</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Fuel Type:</span>
+                        <span class="spec-value">Electric</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Air Conditioning:</span>
+                        <span class="spec-value">Yes</span>
+                    </div>
+                </div>
+               
+                <div class="car-description">
+                    <h2>Description</h2>
+                    <p>	The 2023 Telsa Model 3 is a sleek, all-electric sedan designed for efficiency, performance, and everyday practicality. With agile handling, responsive acceleration, and a clean, high-tech cabin, the Model 3 delivers a modern driving experience. It’s perfect for city commutes or weekend getaways, offering impressive range, intuitive controls, and seamless connectivity through the Tesla ecosystem.</p>
+                    <h2>Features</h2>
+                    <ul class="features-list">
+                        <li>Rear-Wheel or Dual Motor All-Wheel Drive</li>
+                        <li>Autopilot Driver Assistance</li>
+                        <li>Keyless Entry via Smartphone</li>
+                        <li>Lighting</li>
+                        <li>Premium Audio</li>
+                        <li>Glass Roof</li>
+                        <li>Adaptive Air Suspension</li>
+                        <li>Heated Front and Rear Seats</li>
+                        <li>15" Center Touchscreen</li>
+                        <br>
+                    </ul>
+                </div>
+               
+                <button class="btn"> <a href="../HTML/signUpForCarDescr.html"> Rent Now </a> </button>
+ 
+            </div>
+        </div>
+    </div>
+   
+    <footer>
+ 
+        <div id="footerImages">
+       
+       
+            <a href="https://www.facebook.com"><img src="../Images/facebook.png" id="facebook" class="fPic"></a>
+            <a href="https://www.instagram.com"><img src="../Images/instagram.png" id="instagram" class="fPic"></a>
+            <a href="https://www.github.com"><img src="../Images/github.png" id="github" class="fPic"></a>
+ 
+        </div>
+ 
+        <p id="copyright">© 2025 - Fusion Express</p>
+ 
+    </footer>
+ 
+</body>
+</html>
