@@ -209,3 +209,13 @@ footer{
     text-align: center;
     color: #dcd8d4;
 }
+
+.logLink {
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color:#000;
+  font-size:20px;
+}

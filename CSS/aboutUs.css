@@ -25,7 +25,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #ffcc00;
-    font-size: 1.2em;
+    font-size: 25px;
 }
 
 .navLink{
@@ -44,7 +44,7 @@ nav ul li a {
 #fusionExpress{
     text-align: center;
     color: #dcd8d4;
-    font-size: 2.5em;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -140,7 +140,7 @@ input {
     border: none;
     color: #000;
     padding: 10px;
-    font-size: 1em;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
