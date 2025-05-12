@@ -1,6 +1,3 @@
-
-<h1 align="center"> FUSION EXPRESS </h1>
-
 <h1 align="center"> ⚡ FUSION EXPRESS ⚡ </h1>
 
 
